@@ -1,0 +1,49 @@
+question,response,label,category
+Explain object-oriented programming,It's just making things into objects.,0,programming_concepts
+How do you handle conflict at work?,"I don't really deal with conflict, I just ignore it and focus on my work.",0,conflict_resolution
+Explain the concept of caching,Caching is storing frequently accessed data in a faster storage medium to improve performance. It reduces load on the main storage and speeds up data retrieval.,1,performance
+Tell me about a time you had to learn something quickly,I just figure things out as I go.,0,learning_ability
+Tell me about a time you failed,"During my first project management role, I underestimated the timeline for a software release. I learned to better estimate project scope and now include buffer time for unexpected challenges.",1,failure_recovery
+How do you prioritize your work?,"I use a combination of urgency and importance to prioritize. I maintain a digital task list, set clear deadlines, and communicate my progress regularly with stakeholders.",1,organization
+What is the difference between SQL and NoSQL?,"SQL databases are relational, structured, and use predefined schemas, while NoSQL databases are non-relational, flexible, and can handle unstructured data. NoSQL is better for scalability and handling large volumes of data.",1,database_types
+Describe a challenging project you completed,"I recently managed a website redesign project under tight deadlines. I broke down the project into sprints, coordinated with stakeholders, and delivered on time while maintaining quality.",1,project_management
+Explain the concept of Big O notation,It's about how fast code runs.,0,algorithms
+How do you handle constructive criticism?,I usually just ignore criticism.,0,feedback_handling
+Describe database normalization,Database normalization is the process of structuring a database to reduce data redundancy and improve data integrity through organizing fields and tables of a database.,1,database
+What is the difference between synchronous and asynchronous programming?,"Synchronous programming executes code sequentially, while asynchronous programming allows multiple operations to run concurrently. Asynchronous programming improves performance by not blocking the main thread.",1,programming_paradigms
+Describe a time you had to work with a difficult team member,I avoid working with difficult people.,0,teamwork
+Explain the concept of polymorphism,"Polymorphism allows objects to take multiple forms. In OOP, it enables a single interface to represent different underlying forms, improving code reusability and flexibility.",1,oop_concepts
+How do you stay updated with industry trends?,I don't really follow industry trends.,0,professional_development
+How do you make important decisions?,I go with my gut feeling.,0,decision_making
+Tell me about a time you failed,"I never fail at anything, I always succeed.",0,failure_recovery
+Explain object-oriented programming,"OOP is a programming paradigm based on objects containing data and code. It uses concepts like inheritance, encapsulation, polymorphism, and abstraction to organize code into reusable patterns.",1,programming_concepts
+How do you make important decisions?,"I gather all relevant information, consider different perspectives, and evaluate potential outcomes. I also consult with team members when appropriate and document my reasoning.",1,decision_making
+Tell me about a time you had to learn something quickly,"When I needed to learn a new programming language for a project, I created a structured learning plan, used online resources, and practiced with small projects. I also sought guidance from experienced colleagues.",1,learning_ability
+Describe a time you had to work with a difficult team member,"I focus on understanding their perspective and finding common ground. I once worked with someone who had a different communication style, so I adapted my approach to ensure effective collaboration.",1,teamwork
+What is the difference between stack and heap memory?,Stack is faster than heap.,0,memory_management
+How do you handle tight deadlines?,I just work harder when deadlines are tight.,0,time_management
+What is REST API?,"REST API is an architectural style for building web services that use HTTP methods like GET, POST, PUT, DELETE to perform operations on resources, following stateless client-server communication.",1,web_development
+Explain the concept of caching,It's storing data temporarily.,0,performance
+What is the difference between SQL and NoSQL?,"SQL is for structured data, NoSQL isn't.",0,database_types
+What is version control?,It's using Git.,0,development_tools
+What's your greatest strength and weakness?,I don't have any weaknesses.,0,self_awareness
+What is Docker and why is it used?,Docker is a containerization platform that packages applications and their dependencies into containers. It ensures consistency across different environments and makes deployment easier.,1,devops
+Tell me about a time you showed leadership,I'm usually the one in charge because I'm better than others at making decisions.,0,leadership
+What motivates you at work?,Money and promotions motivate me.,0,motivation
+How do you handle conflict at work?,"I believe in addressing conflicts directly but professionally. Once, I had a disagreement with a colleague about project approach. I scheduled a private meeting to discuss our perspectives and found common ground.",1,conflict_resolution
+Explain the concept of microservices,It's breaking down applications.,0,architecture
+Explain the difference between HTTP and HTTPS,HTTPS is more secure than HTTP.,0,security
+Describe database normalization,It's making databases better.,0,database
+How do you handle work-life balance?,"I work whenever I need to, even on weekends.",0,work_life_balance
+What is CI/CD?,It's about automating things.,0,automation
+How do you handle tight deadlines?,"I break down large tasks into smaller, manageable chunks and create a detailed timeline. I also communicate early if I foresee any potential delays and work with stakeholders to adjust expectations.",1,time_management
+How do you handle work-life balance?,I maintain clear boundaries by setting specific work hours and using time management techniques. I also make sure to take regular breaks and use my vacation time effectively.,1,work_life_balance
+How do you handle constructive criticism?,"I view constructive criticism as an opportunity for growth. I listen carefully, ask clarifying questions, and create an action plan to address the feedback.",1,feedback_handling
+What is the difference between synchronous and asynchronous programming?,Async is faster than sync.,0,programming_paradigms
+What motivates you at work?,I'm motivated by solving complex problems and seeing the impact of my work. I particularly enjoy when my solutions help improve efficiency or user experience.,1,motivation
+How do you prioritize your work?,I just do whatever seems most important at the time.,0,organization
+Explain the concept of Big O notation,Big O notation describes the performance or complexity of an algorithm. It helps us understand how an algorithm's running time grows as the input size increases.,1,algorithms
+How do you stay updated with industry trends?,"I regularly attend industry conferences, follow relevant blogs and podcasts, and participate in online courses. I also maintain a network of professionals who share insights about emerging trends.",1,professional_development
+What's your greatest strength and weakness?,"My greatest strength is my problem-solving ability, which I demonstrate through my systematic approach to challenges. As for weaknesses, I'm working on improving my public speaking skills by taking courses and practicing regularly.",1,self_awareness
+What is the difference between GET and POST requests?,"GET is for reading, POST is for writing.",0,http_methods
+Explain the difference between HTTP and HTTPS,"HTTP is unsecured protocol for web communication, while HTTPS adds a security layer using SSL/TLS encryption to protect data transmission between client and server.",1,security
