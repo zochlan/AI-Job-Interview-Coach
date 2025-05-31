@@ -1,0 +1,50 @@
+answer,label
+"Polymorphism allows objects to take multiple forms. In OOP, it enables a single interface to represent different underlying forms, improving code reusability and flexibility.",1
+"SQL is for structured data, NoSQL isn't.",0
+It's making databases better.,0
+"When I needed to learn a new programming language for a project, I created a structured learning plan, used online resources, and practiced with small projects. I also sought guidance from experienced colleagues.",1
+I thrive in collaborative environments where open communication is encouraged. I appreciate having clear goals while maintaining flexibility in how we achieve them.,1
+I haven't really had any challenging projects yet.,0
+Caching is storing frequently accessed data in a faster storage medium to improve performance. It reduces load on the main storage and speeds up data retrieval.,1
+Big O notation describes the performance or complexity of an algorithm. It helps us understand how an algorithm's running time grows as the input size increases.,1
+It's storing data temporarily.,0
+I don't have any weaknesses.,0
+CI/CD stands for Continuous Integration and Continuous Deployment. It's a method to frequently deliver apps to customers by introducing automation into the stages of app development.,1
+"My greatest strength is my problem-solving ability, which I demonstrate through my systematic approach to challenges. As for weaknesses, I'm working on improving my public speaking skills by taking courses and practicing regularly.",1
+I don't really follow industry trends.,0
+I just work harder when deadlines are tight.,0
+I am very detail-oriented and organized.,0
+I avoid working with difficult people.,0
+I like working alone without much interaction.,0
+"Version control is a system that records changes to files over time, allowing you to recall specific versions later. Git is a popular example that helps teams collaborate on code.",1
+"I recently managed a website redesign project under tight deadlines. I broke down the project into sprints, coordinated with stakeholders, and delivered on time while maintaining quality.",1
+Database normalization is the process of structuring a database to reduce data redundancy and improve data integrity through organizing fields and tables of a database.,1
+Money and promotions motivate me.,0
+"I regularly attend industry conferences, follow relevant blogs and podcasts, and participate in online courses. I also maintain a network of professionals who share insights about emerging trends.",1
+"GET is for reading, POST is for writing.",0
+"I break down large tasks into smaller, manageable chunks and create a detailed timeline. I also communicate early if I foresee any potential delays and work with stakeholders to adjust expectations.",1
+"I don't really deal with conflict, I just ignore it and focus on my work.",0
+"During my first project management role, I underestimated the timeline for a software release. I learned to better estimate project scope and now include buffer time for unexpected challenges.",1
+"I view constructive criticism as an opportunity for growth. I listen carefully, ask clarifying questions, and create an action plan to address the feedback.",1
+It's about how fast code runs.,0
+Stack is faster than heap.,0
+"I use a combination of urgency and importance to prioritize. I maintain a digital task list, set clear deadlines, and communicate my progress regularly with stakeholders.",1
+"In my last role, I led a team of five developers to complete a critical project ahead of schedule. I organized daily stand-ups, delegated tasks based on strengths, and maintained clear communication.",1
+"OOP is a programming paradigm based on objects containing data and code. It uses concepts like inheritance, encapsulation, polymorphism, and abstraction to organize code into reusable patterns.",1
+It's just making things into objects.,0
+I maintain clear boundaries by setting specific work hours and using time management techniques. I also make sure to take regular breaks and use my vacation time effectively.,1
+"HTTP is unsecured protocol for web communication, while HTTPS adds a security layer using SSL/TLS encryption to protect data transmission between client and server.",1
+"I never fail at anything, I always succeed.",0
+"Stack memory is static and automatically managed, while heap memory is dynamic and requires manual management. Stack is faster but has limited size, while heap is slower but more flexible.",1
+"SQL databases are relational, structured, and use predefined schemas, while NoSQL databases are non-relational, flexible, and can handle unstructured data. NoSQL is better for scalability and handling large volumes of data.",1
+I just figure things out as I go.,0
+Async is faster than sync.,0
+It's using Git.,0
+"Synchronous programming executes code sequentially, while asynchronous programming allows multiple operations to run concurrently. Asynchronous programming improves performance by not blocking the main thread.",1
+"REST API is an architectural style for building web services that use HTTP methods like GET, POST, PUT, DELETE to perform operations on resources, following stateless client-server communication.",1
+It's when things can be different.,0
+It's about automating things.,0
+"I gather all relevant information, consider different perspectives, and evaluate potential outcomes. I also consult with team members when appropriate and document my reasoning.",1
+"I work whenever I need to, even on weekends.",0
+"GET requests retrieve data and are idempotent, while POST requests create new data and are not idempotent. GET requests can be cached and bookmarked, while POST requests cannot.",1
+It's for running applications.,0

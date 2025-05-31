@@ -62,4 +62,86 @@ data/raw/
 
 # Local development settings
 .env
-.env.local 
+.env.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Additional temporary files
+*.bak
+*.tmp
+*.temp
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Frontend build
+frontend/build/
+frontend/dist/
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+instance/
+
+# Uploads and user data
+uploads/
+app/backend/uploads/
+
+# Documentation and reports (keep only essential docs)
+*.docx
+*.pdf
+*.rtf
+*_REPORT*.md
+*_GUIDE*.md
+*_SUMMARY*.md
+*_INSTRUCTIONS*.md
+FIGURE_*.md
+TABLE_*.md
+Project*.pdf
+Project*.docx
+Template*.pdf
+*Resume*.pdf
+
+# Backup files
+backup/
+
+# Model files and checkpoints
+models/checkpoints/
+models/*.pt
+models/*.bin
+models/*.pth
+models/*.onnx
+models/models--*/
+
+# Cache and temporary directories
+.cache/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

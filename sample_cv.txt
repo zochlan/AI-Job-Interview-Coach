@@ -1,0 +1,79 @@
+JOHN SMITH
+Computer Science Student
+john.smith@email.com | (123) 456-7890 | linkedin.com/in/johnsmith
+github.com/johnsmith | London, UK
+
+EDUCATION
+University of London
+BSc Computer Science
+Expected Graduation: May 2024
+GPA: 3.8/4.0
+
+Relevant Coursework:
+• Data Structures and Algorithms
+• Object-Oriented Programming
+• Database Systems
+• Web Development
+• Machine Learning
+• Software Engineering
+
+TECHNICAL SKILLS
+Languages: Python, JavaScript, TypeScript, Java, C++, SQL, HTML/CSS
+Frameworks: React, Node.js, Express, Flask, Django, TensorFlow
+Tools: Git, Docker, AWS, Azure, MongoDB, PostgreSQL, Redis
+Concepts: RESTful APIs, Microservices, CI/CD, Agile Development
+
+PROJECTS
+AI Job Interview Coach | React, TypeScript, Flask, Python | Jan 2023 - Present
+• Developed an AI-driven web application that simulates job interviews using NLP
+• Implemented adaptive learning algorithms to personalize questions based on user responses
+• Integrated with external APIs for CV parsing and analysis
+• Utilized the STAR framework to provide structured feedback on interview responses
+• Implemented user authentication and session management
+
+E-Commerce Platform | MERN Stack | Sep 2022 - Dec 2022
+• Built a full-stack e-commerce platform with React, Node.js, Express, and MongoDB
+• Implemented user authentication, product catalog, shopping cart, and payment processing
+• Designed a responsive UI with Material-UI and CSS-in-JS
+• Deployed the application to AWS using Docker and CI/CD pipelines
+
+Machine Learning Image Classifier | Python, TensorFlow | May 2022 - Aug 2022
+• Developed a convolutional neural network for image classification
+• Achieved 95% accuracy on the test dataset
+• Implemented data augmentation techniques to improve model performance
+• Created a web interface for users to upload and classify images
+
+WORK EXPERIENCE
+Software Engineering Intern | Tech Solutions Ltd | Jun 2022 - Aug 2022
+• Developed and maintained RESTful APIs using Node.js and Express
+• Collaborated with the frontend team to integrate APIs with React components
+• Participated in code reviews and agile development processes
+• Implemented automated testing using Jest and Supertest
+• Optimized database queries, resulting in a 30% improvement in API response time
+
+Teaching Assistant | University of London | Sep 2021 - Present
+• Assist professors in teaching programming concepts to undergraduate students
+• Grade assignments and provide feedback to students
+• Hold weekly office hours to help students with programming challenges
+• Developed supplementary learning materials for complex topics
+
+LEADERSHIP & ACTIVITIES
+President | Computer Science Society | Sep 2022 - Present
+• Lead a team of 5 officers to organize events and workshops for 100+ members
+• Secured sponsorships from tech companies for society events
+• Organized hackathons, coding competitions, and industry networking events
+
+Volunteer | Code First Girls | Jan 2022 - Present
+• Mentor female students learning to code
+• Teach web development fundamentals using HTML, CSS, and JavaScript
+• Organize coding workshops and career development sessions
+
+CERTIFICATIONS
+• AWS Certified Developer - Associate
+• Microsoft Certified: Azure Fundamentals
+• Google IT Support Professional Certificate
+
+LANGUAGES
+• English (Native)
+• Spanish (Intermediate)
+• French (Basic)

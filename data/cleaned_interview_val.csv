@@ -1,0 +1,13 @@
+question,response,label,category,source
+Tell me about a time you showed leadership,"In my last role, I led a team of five developers to complete a critical project ahead of schedule. I organized daily stand-ups, delegated tasks based on strengths, and maintained clear communication.",1,leadership,interview_val
+Describe a challenging project you completed,I haven't really had any challenging projects yet.,0,project_management,interview_val
+What is version control?,"Version control is a system that records changes to files over time, allowing you to recall specific versions later. Git is a popular example that helps teams collaborate on code.",1,development_tools,interview_val
+What is Docker and why is it used?,It's for running applications.,0,devops,interview_val
+Describe your ideal work environment,I like working alone without much interaction.,0,work_style,interview_val
+What is the difference between stack and heap memory?,"Stack memory is static and automatically managed, while heap memory is dynamic and requires manual management. Stack is faster but has limited size, while heap is slower but more flexible.",1,memory_management,interview_val
+What is REST API?,It's a way to make APIs.,0,web_development,interview_val
+What is CI/CD?,CI/CD stands for Continuous Integration and Continuous Deployment. It's a method to frequently deliver apps to customers by introducing automation into the stages of app development.,1,automation,interview_val
+Describe your ideal work environment,I thrive in collaborative environments where open communication is encouraged. I appreciate having clear goals while maintaining flexibility in how we achieve them.,1,work_style,interview_val
+Explain the concept of polymorphism,It's when things can be different.,0,oop_concepts,interview_val
+Explain the concept of microservices,"Microservices is an architectural style where an application is built as a collection of small, independent services that communicate through APIs. It improves scalability and maintainability.",1,architecture,interview_val
+What is the difference between GET and POST requests?,"GET requests retrieve data and are idempotent, while POST requests create new data and are not idempotent. GET requests can be cached and bookmarked, while POST requests cannot.",1,http_methods,interview_val
