@@ -51,5 +51,16 @@ This folder contains the integrated and cleaned datasets used for the AI-powered
 
 ---
 
+## Important Note: Missing Model File
+
+The file `answer_classifier_model/model.safetensors` (255 MB) is not included in this repository due to GitHub's 100 MB file size limit.
+
+To use the answer classifier functionality:
+1. Train your own model using `train_answer_classifier.py`
+2. Or download a pre-trained model and place it in `data/answer_classifier_model/`
+3. The application will work without this file, but answer classification features will be limited
+
+---
+
 ## Contact
 For questions or contributions, contact the project maintainer.

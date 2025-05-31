@@ -122,6 +122,10 @@ models/*.pth
 models/*.onnx
 models/models--*/
 
+# Large model files (>100MB for GitHub)
+*.safetensors
+data/answer_classifier_model/model.safetensors
+
 # Cache and temporary directories
 .cache/
 .pytest_cache/
