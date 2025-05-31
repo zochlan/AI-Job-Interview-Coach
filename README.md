@@ -267,6 +267,10 @@ ollama run llama3
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## Acknowledgments
+
+Thank you A for the logo <3
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
