@@ -4,122 +4,197 @@
 - Open the project in VSCode
 - Show the clean directory structure:
   ```
-  ├── src/
-  │   ├── model_training.py
-  │   └── interview_analysis.py
-  ├── models/
-  ├── data/
-  └── notebooks/
+  ├── app/                    # Main Flask application
+  │   └── backend/            # Backend code
+  │       ├── routes/         # API routes and endpoints
+  │       └── utils/          # Utility functions
+  ├── frontend/               # React frontend
+  │   ├── public/             # Static files
+  │   └── src/                # Source code
+  │       ├── components/     # React components
+  │       ├── contexts/       # Context providers
+  │       ├── pages/          # Page components
+  │       └── utils/          # Utility functions
+  ├── flask_app.py            # Flask application entry point
+  └── groq_client.py          # Groq API client
   ```
+- Explain the project's purpose: An AI-driven web application that simulates job interviews using NLP, adaptive learning, and the STAR framework to provide personalized feedback.
 
 ## 2. Technical Implementation
 
-### 2.1 Model Training System
-1. Open `src/model_training.py`
+### 2.1 Frontend Architecture
+1. Open `frontend/src/App.tsx`
 2. Highlight key components:
-   - BERT model implementation
-   - Training loop with validation
-   - Model saving mechanism
-3. Show the training results:
-   - 100% validation accuracy
-   - Training progress visualization
+   - React Router for navigation
+   - Material-UI for UI components
+   - Context providers for state management
+   - Responsive design for mobile and desktop
+3. Show the theme implementation:
+   - Light/dark mode toggle
+   - Custom theme with Material-UI
 
-### 2.2 Interview Analysis System
-1. Open `src/interview_analysis.py`
+### 2.2 Backend Architecture
+1. Open `flask_app.py` and `app/backend/routes/main.py`
 2. Demonstrate:
-   - Feedback template system
-   - Response analysis logic
-   - Scoring mechanism
-3. Show the modular design and clean code structure
+   - Flask API endpoints
+   - Session management
+   - CV analysis functionality
+   - Groq API integration
+
+### 2.3 AI Integration
+1. Open `groq_client.py`
+2. Highlight:
+   - Integration with Llama 3 through Groq API
+   - Prompt engineering for interview questions
+   - STAR framework implementation for response analysis
+   - Fallback to local LLM (Ollama) when needed
 
 ## 3. Live Demonstration
 
-### 3.1 Running the Analysis System
-1. Open VSCode terminal (Ctrl + `)
-2. Run the analysis system:
+### 3.1 Starting the Application
+1. Open two VSCode terminals (Ctrl + `)
+2. In the first terminal, start the backend:
    ```bash
-   python src/interview_analysis.py
+   python flask_app.py
    ```
-3. Show example outputs for different question types:
-   - Leadership questions
-   - Technical questions
-   - General behavioral questions
+3. In the second terminal, start the frontend:
+   ```bash
+   cd frontend
+   npm start
+   ```
+4. Open the application in the browser at http://localhost:3000
 
-### 3.2 Key Features to Highlight
-1. Response Scoring
-   - Show how different quality responses get different scores
-   - Demonstrate the scoring consistency
+### 3.2 User Registration and Login
+1. Create a new user account
+2. Log in with the created account
+3. Show the user dashboard
 
-2. Question Categorization
-   - Show how the system identifies question types
-   - Demonstrate accuracy of categorization
+### 3.3 CV Upload and Analysis
+1. Upload a sample CV (have one prepared)
+2. Show how the system analyzes the CV
+3. Demonstrate how the CV information is used to personalize the interview
 
-3. Feedback Generation
-   - Show detailed feedback for each response
-   - Highlight improvement suggestions
+### 3.4 Interview Simulation
+1. Start a new interview session
+2. Answer a series of questions (have some prepared answers)
+3. Show how the AI adapts questions based on previous responses
+4. Demonstrate the light/dark mode toggle
+
+### 3.5 Session Analysis and Feedback
+1. Complete the interview session
+2. Show the session analysis page
+3. Highlight the STAR-based feedback
+4. Demonstrate how to review previous sessions
 
 ## 4. Technical Stack
-- BERT for natural language understanding
-- PyTorch for deep learning
-- Transformers library for state-of-the-art NLP
-- Clean code architecture
+- **Frontend**: React, TypeScript, Material-UI
+- **Backend**: Python, Flask, SQLAlchemy
+- **Database**: SQLite
+- **AI Integration**:
+  - Poe API with Gemini 2.0 Flash
+  - Ollama with llama3 (local LLM)
+- **CV Analysis**: Python docx library, NLP techniques
+- **Authentication**: JWT-based authentication
+- **State Management**: React Context API
+- **Styling**: CSS-in-JS with Emotion
 
 ## 5. Future Enhancements
 1. Potential Improvements:
-   - Adding more question categories
-   - Expanding feedback templates
-   - Web interface integration
-   - Real-time analysis capabilities
+   - Enhanced CV analysis with more detailed extraction
+   - More sophisticated question sequencing based on user performance
+   - Integration with job posting APIs to tailor interviews to specific positions
+   - Video recording and analysis of interview responses
+   - Voice recognition for spoken interviews
 
 2. Scalability:
-   - Model can be trained on larger datasets
-   - System can be extended for different types of interviews
-   - Feedback system can be customized
+   - Multi-user support for educational institutions
+   - Enterprise version with company-specific question banks
+   - Integration with applicant tracking systems
+   - Mobile app version for on-the-go practice
 
 ## 6. Demo Tips
-1. VSCode Features to Use:
-   - Split editor for showing multiple files
-   - Integrated terminal for running commands
-   - Git view for version control
-   - Problems panel to show clean code
+1. Presentation Setup:
+   - Use split screen to show code and application side by side
+   - Have two terminals ready for backend and frontend
+   - Prepare a sample CV in Word format
+   - Test the application before the presentation
+   - Have backup screenshots in case of technical issues
 
 2. Key Points to Emphasize:
-   - Advanced NLP implementation
-   - Modular code structure
-   - Comprehensive feedback system
-   - Model performance metrics
+   - AI-driven personalization based on CV analysis
+   - Adaptive question sequencing
+   - STAR framework for structured feedback
+   - Light/dark mode and responsive design
+   - Session management and history
 
-## 7. Example Questions for Demo
-1. Leadership:
+## 7. Example Questions and Answers for Demo
+1. Behavioral:
    ```
-   Q: Tell me about a time you showed leadership
-   A: I led a team project where we had to deliver under tight deadlines. I organized the team, delegated tasks effectively, and we completed the project successfully.
+   Q: Tell me about a time you had to meet a tight deadline.
+   A: During my final year project, we had to deliver a working prototype in just two weeks. I broke down the project into daily milestones, prioritized core features, and coordinated with team members daily. We managed to deliver on time by focusing on the MVP first and adding enhancements later. This taught me the importance of prioritization and clear communication under pressure.
    ```
 
 2. Technical:
    ```
-   Q: Explain object-oriented programming
-   A: OOP is a programming paradigm based on objects containing data and code. It uses concepts like inheritance, encapsulation, polymorphism, and abstraction to organize code into reusable patterns.
+   Q: Explain how you would design a database for this interview coaching application.
+   A: I would create a relational database with tables for Users, Sessions, Questions, Responses, and Feedback. The Users table would store authentication details and profile information. Sessions would track interview sessions with timestamps and completion status. Questions would store the question bank with categories and difficulty levels. Responses would link users, sessions, and questions with the actual responses. Finally, the Feedback table would store AI-generated feedback with STAR ratings and improvement suggestions.
    ```
 
-3. General:
+3. Situational:
    ```
-   Q: How do you handle conflict at work?
-   A: I believe in addressing conflicts directly but professionally. Once, I had a disagreement with a colleague about project approach. I scheduled a private meeting to discuss our perspectives and found common ground.
+   Q: How would you handle a situation where you disagree with your manager's approach?
+   A: I would first seek to understand their perspective by asking clarifying questions. Then, I would present my alternative approach with data and reasoning, focusing on business outcomes rather than personal preferences. If we still disagree, I would respect their decision while documenting my concerns. In a previous internship, this approach led to a compromise solution that incorporated elements from both approaches and ultimately delivered better results.
    ```
 
 ## 8. Troubleshooting
 If any issues occur during the demo:
-1. Check if all dependencies are installed:
+
+1. Backend Issues:
    ```bash
-   pip install -r requirements.txt
+   # Check if backend is running
+   curl http://localhost:5000/api/time
+
+   # Restart the backend
+   python flask_app.py
    ```
-2. Verify model files are present in the `models/` directory
-3. Ensure Python environment is activated
-4. Check for any error messages in the terminal
+
+2. Frontend Issues:
+   ```bash
+   # Check if frontend is running
+   curl http://localhost:3000
+
+   # Restart the frontend
+   cd frontend
+   npm start
+   ```
+
+3. Database Issues:
+   ```bash
+   # Check if database exists
+   dir instance
+
+   # If needed, create a new database
+   python -c "from app.backend.db.models import db; db.create_all()"
+   ```
+
+4. Groq API Issues:
+   ```bash
+   # Check if Groq API key is set
+   echo %GROQ_API_KEY%
+
+   # Test Groq API connection
+   python -c "import groq_client; print(groq_client.get_available_models())"
+   ```
 
 ## 9. Success Metrics
-- Model achieves 100% validation accuracy
-- System provides detailed, actionable feedback
-- Question categorization is accurate
-- Response scoring is consistent and meaningful 
+- **User Experience**: Smooth navigation, responsive design, intuitive interface
+- **AI Performance**: Relevant questions, personalized to CV, no repetition
+- **Feedback Quality**: Actionable insights, STAR framework analysis, improvement suggestions
+- **Technical Robustness**: No errors during demo, fast response times, proper session management
+- **Presentation Quality**: Clear explanation of features, well-structured demo flow, handling of questions
+
+## 10. Conclusion
+- Summarize the key features and benefits of the AI Job Interview Coach
+- Highlight how it addresses a real need for job seekers
+- Discuss the learning experience and challenges overcome
+- Thank the audience for their attention and invite questions
